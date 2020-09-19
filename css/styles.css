@@ -1,0 +1,187 @@
+h1
+{
+    font-family: "Montserrat";
+}
+h3
+{
+    font-weight: 900;
+}
+h2
+{
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+p
+{
+    color: #8f8f8f;
+}
+body
+{
+    font-family: "Montserrat";
+}
+
+.container-fluid
+{
+    padding: 3% 15% 7%;
+}
+
+#title
+{
+    background-color: #ff4c68;
+    color: white;
+    padding-bottom: 7%;
+
+}
+.title-txt
+{
+    font-size: 3.5rem;
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+/* navigation bar */
+
+.navbar-brand
+{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+
+}
+.navbar
+{
+    padding: 0 0 3.5rem;
+}
+.nav-item
+{
+    font-size: 1.3rem;
+    padding: 0 18px;
+    font-weight: 300;
+}
+
+/* downlaod buttons */
+
+.download-button
+{
+    /* top | right | bottom | left */
+    margin: 1rem 1rem 2rem .3rem;
+}
+
+/* title image */
+
+.title-image
+{
+    width: 60%;
+    transform: rotate(20deg);
+    margin-left: 10px;
+    position: absolute;
+    right: 30%
+}
+
+
+/* features */
+
+#features
+{
+
+    /* top | horizontle | bottom */
+    padding: 7rem 15rem 7rem;
+    background-color: #fff; /*by default the background is non existant. */
+    position: relative;
+
+}
+.feature-box
+{
+    /* top | horizontle | bottom */
+    /* margin: 1.5rem 0 1.5rem; */
+    text-align: center;
+    padding: 5%;
+}
+.features-icon
+{
+    font-size: 6rem;
+    color: #ef8172;
+    margin-bottom: 1.3rem;
+}
+.features-icon:hover
+{
+    color: #ff4c68;
+}
+
+/* testimonial section */
+
+#testimonials
+{
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+.testimonial-image
+{
+    width: 10%;
+    border-radius: 100%;
+    margin: 2rem;
+}
+.carousel-item{
+    padding: 7% 20%;
+
+}
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-logo
+{
+    margin: 20px 20px 50px;
+    width: 10%;
+}
+
+/* pricing */
+#pricing{
+    text-align: center;
+    padding: 100px;
+}
+
+/* CTE scection */
+#cta
+{
+    color: #fff;
+    background-color: #ff4c68;
+    text-align: center;
+    padding: auto 20% 0;
+
+}
+.cta-text
+{
+    padding: 3rem 1rem 4rem;
+    font-size: 3rem;
+}
+
+/* footer section */
+#footer
+{
+    background-color: #fff;
+    text-align: center;
+    padding: 5rem 0 2rem;
+}
+.footer-icon
+{
+    padding: 1%;
+}
+
+/* media quries */
+
+@media (max-width: 1028px)
+{
+    #title
+    {
+        text-align: center;
+    }
+    .title-image
+    {
+        position: static;
+        transform: rotate(0);
+    }
+}
